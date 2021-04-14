@@ -1,3 +1,5 @@
+# Chapter 3: Core Aggregation - Combining Information
+# Lab - $unwind
 var pipeline = [
     {
         $match: {
@@ -39,4 +41,4 @@ var pipeline = [
     }
 ];
 db.movies.aggregate(pipeline);
-{ "_id" : "John Wayne", "numFilms" : 107, "average" : 6.424299065420561 }
+# { "_id" : "John Wayne", "numFilms" : 107, "average" : 6.424299065420561 }
