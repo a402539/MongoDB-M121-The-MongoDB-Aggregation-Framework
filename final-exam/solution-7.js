@@ -29,3 +29,12 @@ var pipeline = [
         }
     }
 ];
+db.air_alliances.aggregate(pipeline);
+# { "_id" : "Delta Air Lines", "count" : 2, "name" : [ "SkyTeam" ] }
+# { "_id" : "American Airlines", "count" : 2, "name" : [ "OneWorld" ] }
+# { "_id" : "British Airways", "count" : 2, "name" : [ "OneWorld" ] }
+# { "_id" : "Malaysia Airlines", "count" : 2, "name" : [ "OneWorld" ] }
+# { "_id" : "Finnair", "count" : 2, "name" : [ "OneWorld" ] }
+# { "_id" : "Air France", "count" : 2, "name" : [ "SkyTeam" ] }
+# { "_id" : "Iberia Airlines", "count" : 2, "name" : [ "OneWorld" ] }
+## OneWorld, with 5 carriers
