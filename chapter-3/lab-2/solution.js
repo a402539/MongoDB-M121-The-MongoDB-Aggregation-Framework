@@ -38,3 +38,5 @@ var pipeline = [
         $limit: 1
     }
 ];
+db.movies.aggregate(pipeline);
+{ "_id" : "John Wayne", "numFilms" : 107, "average" : 6.424299065420561 }
